@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: white;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+    
+  #main_header {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    
+  }
+
+  .logo1 {
+      padding-left: 70px;
+      padding-top: 30px;
+      width: 20px;
+  }
+
+  #gnb {
+    position: absolute;
+    right: 80px;
+    top: 40px;
+  }
+
+  #gnb > ul > li {
+    float: left;
+    width: 120px;
+    padding: 0px 0;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  #gnb > ul > li > a {
+    color: #000;
+    display: block;
+    font-size: 14px;
+  }
+  
+  #gnb .depth2 {
+    margin-top: 5px;
+    padding-left: 30px;
+    display: none;
+    font-size: 12px; 
+   
+  }
+
+  #gnb > ul > li:hover > .depth2{
+    display: block;
+    }
+  
+  #gnb .depth2 > li {
+    padding-top: 3em; 
+    width: 150px;
+    padding: 5px;
+    background: #000;
+  }
+
+  #gnb .depth2 > li > a {
+    color: #fff;
+    
+  }
+
+  #main_b {
+      background-image: url(./pixarimg/11.jpg);
+      background-size: 100%;
+     
+  }
+
+  .back {
+      padding-top: 120px;
+      padding-left: 550px;
+  }
+
+  
+  #section1{
+   padding-top: 100px;
+   height: 400px;
+   
+  }
+
+  .content {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    float: left;
+    margin-left: 70px;
+   margin-right: 300px;
+  }
+
+  .text1 {
+      width: 300px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-align: center;
+      padding-top: 30px;
+  }
+
+
+
+  
+ 
+
+   
+ 
